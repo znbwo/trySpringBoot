@@ -1,0 +1,21 @@
+
+spring:
+  datasource:
+    driver-class-name:  com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gamenote
+    username: root
+    password: 123456
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8080
+  context-path: /
+logFilePath: E:\workspace\server-game\logs\
+
+
+
+
+
+
